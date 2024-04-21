@@ -9,17 +9,22 @@ public class DemoHinhTron {
 		// TODO Auto-generated method stub
 		java.util.Scanner in = new java.util.Scanner(System.in);
 		int n;
-		System.out.println("--> Nhap so luong hinh tron: ");
-		n = in.nextInt();
-		HinhTron []a = new HinhTron[n];
-		for(int i = 0; i < a.length; i++) {
-			a[i] = new HinhTron();
-			a[i].nhap();
+		do {
+			System.out.println("--> Nhập số lượng hình tròn: ");
+			n = in.nextInt();
+		}while(n <= 0);
+		
+		HinhTron []list = new HinhTron[n];
+		for(int i = 0; i < n; i++) {
+			System.out.println("NHẬP THÔNG TIN HÌNH TRÒN THỨ " + (i + 1));
+			list[i] = new HinhTron();
+			list[i].nhapThongTin();
 		}
 		
 		HinhTron.inTieuDe();
-		for(int i = 0; i < a.length; i++) {
-			a[i].in();
+		for (HinhTron hinhTron : list) {
+			System.out.println(hinhTron.toString());
 		}
+		
 	}
 }
