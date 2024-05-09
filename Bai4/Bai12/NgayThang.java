@@ -1,6 +1,6 @@
 package Bai4.Bai12;
 
-public class Date {
+public class NgayThang {
 	private int ngay, thang, nam;
 
 	public int getNgay() {
@@ -27,10 +27,13 @@ public class Date {
 		this.nam = nam;
 	}
 
-	public Date() {
-		this.ngay = 0;
-		this.thang = 0;
-		this.nam = 0;
+	public NgayThang() {
+	}
+
+	public NgayThang(int ngay, int thang, int nam) {
+		this.ngay = ngay;
+		this.thang = thang;
+		this.nam = nam;
 	}
 
 	public void nhap() {
