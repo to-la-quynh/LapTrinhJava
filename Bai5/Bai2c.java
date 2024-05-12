@@ -1,6 +1,6 @@
 package Bai5;
 
-public class TestFinallyKeyword3 {
+public class Bai2c {
     public static void main(String args[]) {
         try {
             int data = 25 / 0;
