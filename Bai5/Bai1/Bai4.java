@@ -1,4 +1,4 @@
-package Bai5;
+package Bai5.Bai1;
 
 import java.io.IOException;
 

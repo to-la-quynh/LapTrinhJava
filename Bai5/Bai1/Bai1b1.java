@@ -1,10 +1,11 @@
-package Bai5;
+package Bai5.Bai1;
 
-public class Bai1b2 {
+public class Bai1b1 {
+
 	public static void main(String args[]) {
 		try {
 			try {
-				System.out.println("going to divide");
+				System.out.println("Thuc hien phep chia");
 				int b = 39 / 0;
 			} catch (ArithmeticException e) {
 				System.out.println(e);
@@ -17,11 +18,11 @@ public class Bai1b2 {
 				System.out.println(e);
 			}
 
-			System.out.println("other statement");
+			System.out.println("Khoi lenh khac");
 		} catch (Exception e) {
-			System.out.println("handeled");
+			// TODO Auto-generated catch block
+			System.out.println("Xu ly ngoai le");
 		}
-
-		System.out.println("normal flow..");
+		System.out.println("tiep tuc chuong trinh.");
 	}
 }

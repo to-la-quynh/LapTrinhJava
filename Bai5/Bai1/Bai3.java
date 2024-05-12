@@ -1,4 +1,4 @@
-package Bai5;
+package Bai5.Bai1;
 
 public class Bai3 {
 	// a. Ném ra ngoại lệ nhưng không xử lý

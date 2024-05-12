@@ -1,4 +1,4 @@
-package Bai5;
+package Bai5.Bai1;
 
 public class Bai1a2 {
 	public static void main(String[] args) {

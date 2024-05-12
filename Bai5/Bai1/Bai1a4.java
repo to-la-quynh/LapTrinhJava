@@ -1,4 +1,4 @@
-package Bai5;
+package Bai5.Bai1;
 
 public class Bai1a4 {
 
